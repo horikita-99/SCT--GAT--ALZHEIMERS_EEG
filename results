@@ -1,0 +1,24 @@
+
+AD vs CN
+GAT Test Accuracy: 92.31%
+              precision    recall  f1-score   support
+
+          AD       1.00      0.86      0.92         7
+          CN       0.86      1.00      0.92         6
+
+    accuracy                           0.92        13
+   macro avg       0.93      0.93      0.92        13
+weighted avg       0.93      0.92      0.92        13
+
+
+AD vs CN vs FTD 
+
+GAT Test Accuracy: 83.33%
+              precision    recall  f1-score   support
+
+          AD       1.00      0.57      0.73         7
+          CN       0.67      1.00      0.80         6
+         FTD       1.00      1.00      1.00         5
+
+    accuracy                           0.83        18
+   macro avg       0.89      0.86      0.84        18
