@@ -1,0 +1,23 @@
+# Core ML Libraries
+torch>=2.0.0
+scikit-learn>=1.2.2
+numpy>=1.23.0
+scipy>=1.10.0
+
+# EEG and Signal Processing
+mne>=1.5.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.2
+
+# For Chirplet & Synchrosqueezed Transform (if using custom/scientific versions)
+tftb>=0.1.0   # Time-Frequency Toolbox (optional, for chirplet-related work)
+
+# Optional: Language Model Explainability (LLM + LangChain)
+openai>=1.0.0
+langchain>=0.1.0
+
+# Utility Tools
+tqdm>=4.65.0
+joblib>=1.3.0
